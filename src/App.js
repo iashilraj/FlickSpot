@@ -28,7 +28,7 @@ const [searchTerm, setSearchTerm] = useState([]);
 
             <div className="search">
                 <input
-                    placeholder='Search for movies'
+                    placeholder='Search for movies.'
                     value={searchTerm}
                     onChange={(e)=> setSearchTerm(e.target.value)}
                 />
