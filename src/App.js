@@ -24,13 +24,13 @@ const [searchTerm, setSearchTerm] = useState([]);
 
     return (
         <div className="app">
-            <h1>Movies</h1>
-
+            <h1>FlickSpot</h1>
+        
             <div className="search">
                 <input
                     placeholder='Search for movies'
                     value={searchTerm}
-                    onChange={(e)=> setSearchTerm(e.target.value)}
+                    onChange={(e)=> setSearchTerm(e.target.value)}                    
                 />
                 <img 
                     src={SearchIcon}
